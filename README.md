@@ -1,5 +1,5 @@
 # App Lista de Tarefas 📜
-Um app simples de listaeem de tarefas no qual tem por objetivo mostrar as funções mais básicas do </br>
+Um app simples de listagem de tarefas que tem por objetivo mostrar as funções mais básicas do </br>
 Node.js 📜✏️
 
 ---
