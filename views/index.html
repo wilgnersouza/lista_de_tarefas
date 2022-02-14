@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <title>App NodeJs</title>
+</head>
+<body>
+    <div class="tarefas">
+        <form method="post">
+            <input type="text" name="tarefa" placeholder="Insira aqui sua tarefa">
+            <input type="submit" name="acao" value="Inserir">
+        </form>
+        <% for(let i = 0; i < tarefas.length; i++){%>
+
+            <p> 📜 <%= tarefas[i] %>  |  <a href="/deletar/<%= i %>">X</a></p>
+
+            <% } %>
+    </div>
+</br>
+    
+</body>
+</html>
